@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(216, 128, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.board {
+    background-color :rgb(216, 128, 146);
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16px;
+    border: 1px solid #d93232;
+   background-color: aqua;
+   border-radius: 10px;
+    cursor: pointer;
+}
